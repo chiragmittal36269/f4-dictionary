@@ -20,7 +20,7 @@ const History = ({ setFind }) => {
             .catch((err) => {
                 console.log(err);
             });
-        navigate("/view");
+        navigate("/f4-dictionary/view");
     }
 
     return (

@@ -11,8 +11,8 @@ const App = () => {
     return (
         <div>
             <Routes>
-                <Route path="/" element={<Navbar />}>
-                    <Route path="home" element={<Home />} />
+                <Route path="/f4-dictionary" element={<Navbar />}>
+                    <Route path="/f4-dictionary" element={<Home />} />
                     <Route
                         path="history"
                         element={<History setFind={setFind} />}

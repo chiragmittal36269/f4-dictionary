@@ -6,15 +6,15 @@ const Navbar = () => {
         <div>
             <nav className="navbar">
                 <div>
-                    <NavLink to="/" className="logo">
+                    <NavLink to="/f4-dictionary" className="logo">
                         Dictionary App
                     </NavLink>
                 </div>
                 <div>
-                    <NavLink to="/home" className="link_1">
+                    <NavLink to="/f4-dictionary" className="link_1">
                         Home
                     </NavLink>
-                    <NavLink to="/history" className="link_2">
+                    <NavLink to="/f4-dictionary/history" className="link_2">
                         History
                     </NavLink>
                 </div>
